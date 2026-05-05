@@ -1,0 +1,35 @@
+body {
+    background: #f0f7ff;
+    font-family: 'Segoe UI', sans-serif;
+    color: #4a4a4a;
+    scroll-behavior: smooth;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container { width: 80%; margin: auto; padding: 100px 0; text-align: center; }
+
+.clouds {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/clouds.png');
+    z-index: -1; opacity: 0.3;
+}
+
+h1 { font-size: 3rem; color: #ff6b81; }
+
+.elegant-table {
+    width: 100%; border-collapse: collapse; margin: 40px 0;
+    background: white; border-radius: 15px; overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.elegant-table th { background: #ff6b81; color: white; padding: 15px; }
+.elegant-table td { padding: 15px; border-bottom: 1px solid #eee; }
+
+button {
+    padding: 15px 30px; background: #ff6b81; color: white;
+    border: none; border-radius: 50px; cursor: pointer;
+    font-weight: bold; transition: 0.3s;
+}
+
+button:hover { transform: scale(1.1); background: #ff4757; }
